@@ -12,7 +12,7 @@ import java.util.Random;
 public class Task4 {
     public static void main(String[] args) {
         int [] array = new int[100];
-        Random random = new Random();
+Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10001);
             System.out.print(array[i] + " ");
